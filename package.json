@@ -37,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "scripts": {
+  "lint": "eslint -f json -o eslint-report.json .; exit 0",
+  "fix": "eslint --fix .; exit 0"
+}
 }
